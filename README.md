@@ -4,7 +4,8 @@ this is a simple rails api with thw folloeing resources
 
 ## Table structures and relationships
 ### Table structures
-![table image](./app/assets/domain (1).png)
+
+![table image](app/assets/tables.png)
 
 ### Table relationsips
 * A `Hero` has many `Power`s through `HeroPower`
