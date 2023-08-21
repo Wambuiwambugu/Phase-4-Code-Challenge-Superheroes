@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/faker-ruby/faker.git
+  revision: 22f2b52f3c44aec922c5ee23ccfb95fcd572286a
+  branch: main
+  specs:
+    faker (3.2.1)
+      i18n (>= 1.8.11, < 2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -157,6 +165,7 @@ PLATFORMS
 
 DEPENDENCIES
   debug
+  faker!
   puma (~> 5.0)
   rails (~> 7.0.7)
   sqlite3 (~> 1.4)

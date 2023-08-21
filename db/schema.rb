@@ -35,6 +35,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_08_20_201635) do
     t.datetime "updated_at", null: false
   end
 
-  add_foreign_key "hero_powers", "heros"
+  add_foreign_key "hero_powers", "heroes"
   add_foreign_key "hero_powers", "powers"
 end
