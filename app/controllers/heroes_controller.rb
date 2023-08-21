@@ -1,4 +1,6 @@
 class HeroesController < ApplicationController
+    
+
     def index
         heroes = Hero.all
         render json: heroes, except: excluded_attributes, status: :ok
