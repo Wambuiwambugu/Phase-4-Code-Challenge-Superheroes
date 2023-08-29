@@ -1,6 +1,6 @@
 # Phase 4 Code Challenge: Superheroes
 ***
-this is a simple rails api with thw folloeing resources
+this is a simple rails api with the following resources
 
 ## Table structures and relationships
 ### Table structures
@@ -193,7 +193,7 @@ JSON data, along with the appropriate HTTP status code:
 ```
 ***
 ### Troubleshooting
-* rails automatic plurlize methowas as follows:
+* rails automatic pluralize method was as follows:
 ```ruby
 'hero'.pluralize
 #=> heros
